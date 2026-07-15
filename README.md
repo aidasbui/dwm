@@ -42,9 +42,10 @@ Standard suckless build, no extra config needed beyond what's already in
 
     make clean install
 
-Requires the usual Xlib dev headers (`libx11-dev`, `libxft-dev`,
-`libxinerama-dev`, `libxrandr-dev`, `libxext-dev` on Debian) - already listed
-in the dotfiles repo's `packages.txt`.
+Install build deps first (already listed in the dotfiles repo's
+`packages.txt`):
+
+    sudo apt install libx11-dev libxft-dev libxinerama-dev libxrandr-dev libxext-dev
 
 ## Updating from upstream
 
